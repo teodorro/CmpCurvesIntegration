@@ -14,11 +14,15 @@
             <ColumnDefinition Width="250"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="280*"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
         <ScrollBar Grid.Column="1"  Grid.Row="1"/>
-
+        <local:ToolBarCtrl Grid.ColumnSpan="4"></local:ToolBarCtrl>
+        <local:StatusBarCtrl Grid.Row="3" Grid.ColumnSpan="4"></local:StatusBarCtrl>
+        <local:CmpScanCtrl Grid.Row="1"></local:CmpScanCtrl>
+        <local:IntegratedScanCtrl Grid.Row="1" Grid.Column="2"></local:IntegratedScanCtrl>
+        <local:LayersInfoCtrl Grid.Row="1" Grid.Column="3"></local:LayersInfoCtrl>
     </Grid>
 </Window>

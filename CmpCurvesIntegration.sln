@@ -5,9 +5,13 @@ VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmpCurvesIntegration", "CmpCurvesIntegration\CmpCurvesIntegration.csproj", "{F3CB7EA7-D3F4-4E24-99D0-014A784E6423}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCmpCurvesIntegration", "TestCmpCurvesIntegration\TestCmpCurvesIntegration.csproj", "{96FB6656-9966-42A6-91BB-251C4E99FE91}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmpCurvesIntegrationModel", "CmpCurvesIntegrationModel\CmpCurvesIntegrationModel.csproj", "{C248F027-1808-4010-AB71-CCAE21B08010}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{C148C18D-66B0-42B0-89A8-8A52B0E4774C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmpCurvesIntegrationModel.Tests", "CmpCurvesIntegrationModel.Tests\CmpCurvesIntegrationModel.Tests.csproj", "{5695F9B0-46C8-4F4D-8C86-DF3BD0B6CD20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{D7966070-A482-4AC2-8221-D7DCDB9DC3A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,17 +23,20 @@ Global
 		{F3CB7EA7-D3F4-4E24-99D0-014A784E6423}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3CB7EA7-D3F4-4E24-99D0-014A784E6423}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3CB7EA7-D3F4-4E24-99D0-014A784E6423}.Release|Any CPU.Build.0 = Release|Any CPU
-		{96FB6656-9966-42A6-91BB-251C4E99FE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96FB6656-9966-42A6-91BB-251C4E99FE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96FB6656-9966-42A6-91BB-251C4E99FE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96FB6656-9966-42A6-91BB-251C4E99FE91}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C248F027-1808-4010-AB71-CCAE21B08010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C248F027-1808-4010-AB71-CCAE21B08010}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C248F027-1808-4010-AB71-CCAE21B08010}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C248F027-1808-4010-AB71-CCAE21B08010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5695F9B0-46C8-4F4D-8C86-DF3BD0B6CD20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5695F9B0-46C8-4F4D-8C86-DF3BD0B6CD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5695F9B0-46C8-4F4D-8C86-DF3BD0B6CD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5695F9B0-46C8-4F4D-8C86-DF3BD0B6CD20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5695F9B0-46C8-4F4D-8C86-DF3BD0B6CD20} = {C148C18D-66B0-42B0-89A8-8A52B0E4774C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6530656C-C71A-4780-9503-A9B554019632}
